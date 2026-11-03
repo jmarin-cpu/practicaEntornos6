@@ -1,110 +1,31 @@
-/* ===== Estilos generales ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f7faf3;
-    color: #2b3a22;
-    line-height: 1.6;
-}
-
-h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
 }
 
-/* ===== Cabecera ===== */
-.cabecera {
+h1 {
     background-color: #3e5c2f;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-}
-
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.menu a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.menu a:hover {
-    color: #f4a259;
-}
-
-/* ===== Portada ===== */
-.portada {
-    background-color: #6a994e;
-    color: #ffffff;
-    text-align: center;
-    padding: 4rem 2rem;
-}
-
-.portada p {
-    margin-bottom: 1.5rem;
+    color: white;
+    padding: 20px;
 }
 
 .boton {
-    display: inline-block;
     background-color: #f4a259;
-    color: #3e5c2f;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-}
-
-/* ===== Listado ===== */
-.listado {
-    padding: 3rem 2rem;
-}
-
-.productos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
 }
 
 .tarjeta {
-    background-color: #ffffff;
-    width: 250px;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    list-style: none;
 }
 
-.precio {
-    display: block;
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #6a994e;
-}
-
-/* ===== Información ===== */
-.info {
-    background-color: #e3eed9;
-    text-align: center;
-    padding: 3rem 2rem;
-}
-
-/* ===== Pie ===== */
 .pie {
-    background-color: #3e5c2f;
-    color: #ffffff;
-    text-align: center;
-    padding: 1rem;
+    color: gray;
 }
